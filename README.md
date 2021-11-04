@@ -1,6 +1,6 @@
 # grafana_dashboard
 
-本人创建了一个grafana面板，用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
+&ensp;&ensp;&ensp;&ensp;本人创建了一个grafana面板，用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
 #### 效果图
 ![Alt text](https://github.com/zsx0728/grafana_dashboard/blob/main/images/thumbnail.jpg)
 #### 运行环境
