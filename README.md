@@ -1,6 +1,6 @@
 # grafana_dashboard
 
-本人创建了一个grafana面板，有需要的可以自取。
+本人创建了一个grafana面板，用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
 #### 效果图
 ![Alt text](https://github.com/zsx0728/grafana_dashboard/blob/main/images/thumbnail.jpg)
 #### 运行环境
@@ -12,6 +12,6 @@
 
 ![Alt text](https://github.com/zsx0728/grafana_dashboard/blob/main/images/data_source.png)
 
-4. 点击“Create”-“Import”，可以直接上传JSON文件，也可以将文件内容复制到“Import via panel json”下方的文本框中加载。模板为 grafana_mysql_template.json 。
+3. 点击“Create”-“Import”，可以直接上传JSON文件，也可以将文件内容复制到“Import via panel json”下方的文本框中加载。模板为 grafana_mysql_template.json 。
 
 ![Alt text](https://github.com/zsx0728/grafana_dashboard/blob/main/images/import.png)
