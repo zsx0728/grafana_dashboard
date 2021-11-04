@@ -6,6 +6,7 @@
 #### 运行环境
 &ensp;&ensp;&ensp;&ensp;操作系统：CentOS Linux release 7.7.1908 (Core) <br>
 &ensp;&ensp;&ensp;&ensp;数据库：5.5.68-MariaDB（yum安装） <br>
+&ensp;&ensp;&ensp;&ensp;grafana：latest（v8.2.x）
 #### 使用方法
 1. 提前创建好数据库 grafana_template，导入测试数据，测试数据为 grafana_template.sql。 <br>
 2. 在 grafana 创建mysql数据源，注意数据源名称为 mysql_grafana_template。 <br>
