@@ -6,7 +6,7 @@
 - 气象面板
 
 
-&ensp;&ensp;&ensp;&ensp;以安全面板为例进行说明。安全面板用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
+&ensp;&ensp;&ensp;&ensp;以安全面板为例进行使用说明。安全面板用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
 #### 效果图
 ![Alt text](images/thumbnail.jpg)
 #### 运行环境
