@@ -1,6 +1,12 @@
 # grafana_dashboard
 
-&ensp;&ensp;&ensp;&ensp;本人创建了一个grafana面板，用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
+
+&ensp;&ensp;&ensp;&ensp;记录本人创建过的grafana模板。目前有：
+- 安全面板
+- 气象面板
+
+
+&ensp;&ensp;&ensp;&ensp;以安全面板为例进行说明。安全面板用于展示安全扫描的结果。扫描结果存储于mysql或mariadb，grafana使用sql语句直接读取数据库并配合自带图形进行展示。
 #### 效果图
 ![Alt text](images/thumbnail.jpg)
 #### 运行环境
